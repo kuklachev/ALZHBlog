@@ -1,0 +1,8 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    <h1>Cтатистика</h1>
+        <br>
+        <br>
+        <p>Всего пользователей: {{ user_count.count }}</p>
+        <p>Всего постов: {{ post_count.count }}</p>
+{% endblock content %}
